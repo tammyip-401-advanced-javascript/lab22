@@ -5,7 +5,7 @@ Project Name: React Testing and Deployment
 Author: Tammy Ip
 
 Links and Resources (see below)
-submission PR: `https://github.com/iptmh/lab21/pull/1`
+submission PR: `https://github.com/tammyip-401-advanced-javascript/lab22/pull/1`
 Netlify:
 AWS S3:
 AWS Amplify: 
