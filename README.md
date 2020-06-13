@@ -25,5 +25,9 @@ Setup
 + npm install node-sass
 + npm install enzyme-adapter-react-16
 
++ do npm run build to generate the build file for deployment
+
+
+
 UML
 https://docs.google.com/spreadsheets/d/1AeFrUVOJMixIzMm21RZXobmPH6-hd4swhA20Kqy3rbQ/edit?usp=sharing

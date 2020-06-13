@@ -3,9 +3,9 @@ import renderer from 'react-test-renderer';
 import App from '../App.js';
 
 
-describe('snapshot test for app', () => {
-  it('creates matching snapshot', () => {
-    const currentpage = renderer.create(<App />).toJSON();
-    expect(currentpage).toMatchSnapshot();
+describe('snapshot test for the app', () => {
+  it('mataches the snapshot', () => {
+    const currentHTML = renderer.create(<App />).toJSON();
+    expect(currentHTML).toMatchSnapshot();
   });
 });
