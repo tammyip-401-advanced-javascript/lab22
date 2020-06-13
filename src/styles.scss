@@ -1,15 +1,21 @@
-$pink: rgb(249, 207, 214);
-$blue: rgb(218, 238, 240);
+#root {
+  font-family: Arial;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+$pink: rgb(207, 244, 249);
+$blue: rgb(187, 165, 190);
 
 $spacing: 20px;
 
-.header {
+header {
   text-align: center;
   background-color: $pink;
   padding: $spacing;
 }
 
-.footer {
+footer {
   text-align: center;
   background-color: $blue;
   padding: $spacing;
@@ -18,7 +24,7 @@ $spacing: 20px;
 .counter{
   text-align: center;
   padding: $spacing;
-  font-size: 1.5em;
+  font-size: 3em;
   font-style: italic;
 
   input{
@@ -27,5 +33,9 @@ $spacing: 20px;
     font-size: 1em;
     text-align: center;
     padding: $spacing/3;
+  }
+
+  .clicker{
+    padding: $spacing*3;
   }
 }
