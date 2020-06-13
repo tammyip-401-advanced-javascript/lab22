@@ -1,5 +1,5 @@
 import React from 'react';
-import Counter from '../src/components/Counter.js';
+import Counter from '../components/Counter.js';
 import { configure, mount, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 // import Enzyme from 'enzyme';
