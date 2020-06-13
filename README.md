@@ -7,7 +7,7 @@ Author: Tammy Ip
 Links and Resources (see below)
 submission PR: `https://github.com/tammyip-401-advanced-javascript/lab22/pull/1`
 Netlify: `https://lab22.netlify.app/`
-AWS S3:
+AWS S3:`http://401n16lab22.s3-website-us-west-2.amazonaws.com/`
 AWS Amplify: 
 
 Documentation
