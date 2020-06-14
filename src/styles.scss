@@ -1,11 +1,13 @@
+@import './colors';
+
 #root {
   font-family: Arial;
   text-align: center;
   font-size: 1.5em;
 }
 
-$pink: rgb(207, 244, 249);
-$blue: rgb(187, 165, 190);
+// $pink: rgb(207, 244, 249);
+// $blue: rgb(187, 165, 190);
 
 $spacing: 20px;
 
@@ -19,6 +21,7 @@ footer {
   text-align: center;
   background-color: $blue;
   padding: $spacing;
+  margin-top: 20em;
 }
 
 .counter{
@@ -26,6 +29,7 @@ footer {
   padding: $spacing;
   font-size: 3em;
   font-style: italic;
+  margin-top: 5em;
 
   input{
     margin-top: $spacing;
