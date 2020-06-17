@@ -1,0 +1,45 @@
+@import './colors';
+
+#root {
+  font-family: Arial;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+// $pink: rgb(207, 244, 249);
+// $blue: rgb(187, 165, 190);
+
+$spacing: 20px;
+
+header {
+  text-align: center;
+  background-color: $pink;
+  padding: $spacing;
+}
+
+footer {
+  text-align: center;
+  background-color: $blue;
+  padding: $spacing;
+  margin-top: 20em;
+}
+
+.counter{
+  text-align: center;
+  padding: $spacing;
+  font-size: 3em;
+  font-style: italic;
+  margin-top: 5em;
+
+  input{
+    margin-top: $spacing;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    padding: $spacing/3;
+  }
+
+  .clicker{
+    padding: $spacing*3;
+  }
+}
